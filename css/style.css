@@ -1,0 +1,392 @@
+body {
+    color: #500801;
+    background: linear-gradient(to bottom, #F1E9DE 0%, #FFFFFF 100%);
+}
+
+ h1, h2, h3, h4, h5, h6, p{
+    color: #500801;
+  }
+  
+.nav-link {
+    color: #500801;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0 80px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo-container {
+    margin-right: 20px;
+  }
+  
+  .menu-container {
+    margin-left: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #500801;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .menu a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0;
+    background-color: #500801;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu a:hover:after {
+    width: 100%;
+    left: 0;
+    transition: all 0.3s ease-in;
+    transition: all 0.6s ease-in-out
+  }
+  
+  .marchio {
+    height: 60px;
+    max-width: 100%;
+    width: auto;
+  }
+  
+  /* Titolo colazione nel mondo*/
+  h1 {
+    font-family: 'Imperial Script', cursive;
+    font-weight: 500;
+    font-size: 240px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 160px;
+  }
+
+  .nelmondo{
+    padding-left: 340px;
+  }
+  
+  .imgcornetto {
+    position: absolute;
+    width: 50%;
+    margin: 0;
+    float: left;
+    padding-right: 0px;
+    top: 40px;
+    left: -170px;
+    z-index: 1;
+}
+
+.imgcornetto img {
+    width: 1400px;
+    height: auto;
+    transform: rotate(4deg);
+
+}
+
+.contcolazione {
+    position: relative;
+    margin-top: 150px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  mix-blend-mode: overlay;
+  z-index: 0;
+  user-select: none;
+  opacity: 50%;
+}
+
+.citazionecolazione {
+  position: relative;
+}
+
+.testo-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.testo-overlay h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: 'Judson', serif;
+}
+
+
+.testo-overlay p {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 73%;
+  margin-top: 0px;
+  z-index: 3;
+  position: relative;
+  top: -800px;
+  margin: auto;
+}
+
+.colonna {
+  width: 49%;
+}
+
+.modulo {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  align-items: center;
+}
+
+.immagine-rotonda {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testo-modulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 430px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.titolo-modulo {
+  font-size: 29px;
+  font-family: 'Judson', serif;
+  margin-bottom: 0px;
+}
+
+.immaginebackdiviso {
+  background-image: url('/img/colazione-americana1\ 1.png');
+  position: relative;
+  background-size: cover;
+  height: 65vh;
+  top: -650px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 73%;
+  margin-top: 0px;
+  z-index: 3;
+  position: relative;
+  top: -550px;
+  margin: auto;
+}
+
+.colazionemondofooter p {
+  font-size: 278px;
+  max-width: 100%;
+  font-family: 'Imperial Script';
+  color: #f1e9de;
+  margin: 0px;
+  position: relative;
+  top: -550px;
+}
+
+.testo-overlay2 {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.testo-overlay2 h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: 'Judson', serif;
+}
+
+
+.testo-overlay2 p {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
+
+.button {
+  background-color: #F1E9DE;
+  border-radius: 100px;
+  border: none;
+  box-shadow: none;
+  width: 40%;
+  height: 10%;
+  margin-top: 15px;
+  transition-duration: 1s;
+}
+
+.button p {
+  font-size: 19px;
+  font-family: 'Judson', serif;
+  font-weight: 700;
+  
+}
+
+.button:hover {
+  background-color: #dbd4c9;
+  transition-duration: 1s;
+}
+
+.dottedfooter {
+  border: 3px dotted #500801;
+  opacity: 20%;
+  width: 90%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  position: relative;
+  margin: auto;
+  padding: 0px;
+  
+}
+
+.footer-left {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  width: 50%;
+  height: auto;
+}
+
+.footer-right {
+  text-align: center;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin-right: -12px;
+  
+}
+
+.footer-right ul a {
+  text-decoration: none;
+  color: #500801;
+}
+
+.footer-right li {
+  margin: 0px 15px 0px 0px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-right p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.colazionefooter{
+  font-size: 40px;
+  font-family: 'Imperial Script';
+  margin: 0px;
+  margin-bottom: -10px;
+}
+
+.footer2 {
+  top: -80px;
+  position: inherit;
+}
+
+.menurapido {
+  text-align: right;
+}
+
+.linketc {
+  text-align: right;
+}
+
+.menufooter1{
+  text-align: right;
+  margin-right: 0px;
+  margin: 0px;
+}
+
+.footer-right a {
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-right a:hover {
+  width: 100%;
+  border-bottom: 2px solid #500801;
+  transition: all 0.3s ease-in;
+}
+
+.colazionefooter2 {
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: #500801;
+}
+
+.colazionefooter2:hover {
+  border-bottom: 1px solid #500801;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
